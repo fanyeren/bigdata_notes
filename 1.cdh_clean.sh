@@ -13,3 +13,6 @@ rm -rf /opt/cm-${CM_VERSION}/run/cloudera-scm-agent/
 
 rm -rf /opt/cm-${CM_VERSION}/lib/cloudera-scm-agent/
 mkdir -p /opt/cm-${CM_VERSION}/lib/cloudera-scm-agent/
+
+rm -rf /opt/cm-${CM_VERSION}/log/cloudera-scm-agent/
+mkdir -p /opt/cm-${CM_VERSION}/log/cloudera-scm-agent/
